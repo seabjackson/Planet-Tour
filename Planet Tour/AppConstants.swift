@@ -25,7 +25,6 @@ import UIKit
 struct AppConstants {
 
   static let bigLabelColor = UIColor(rgba: "#FFFFFF66")
-  static let appPrimaryColor = UIColor(rgba: "#FBB03B")
   static let navBarBackground = UIColor(rgba: "#535E66")
   static let navTintColor = UIColor(rgba: "#FBB03B")
   static let detailTitleColor = UIColor(rgba: "#FFFFFF")

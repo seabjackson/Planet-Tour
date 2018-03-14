@@ -25,7 +25,6 @@
 		49A83DD91D2E47000082ADA8 /* PlanetaryCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A83DD81D2E47000082ADA8 /* PlanetaryCollectionViewFlowLayout.swift */; };
 		49C83E6E1CF89A1F00B80E52 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C83E6D1CF89A1F00B80E52 /* UIColorExtension.swift */; };
 		49C83E701CF89A6700B80E52 /* Credits in Resources */ = {isa = PBXBuildFile; fileRef = 49C83E6F1CF89A6700B80E52 /* Credits */; };
-		49C83E721CF8A51700B80E52 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C83E711CF8A51700B80E52 /* AppConstants.swift */; };
 		49C83E741CF8B29C00B80E52 /* Planets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C83E731CF8B29C00B80E52 /* Planets.xcassets */; };
 		B52A166D2059748300FE6362 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52A166C2059748300FE6362 /* GoogleService-Info.plist */; };
 		B56BBFCF20597F9600A13136 /* RCValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56BBFCE20597F9600A13136 /* RCValues.swift */; };
@@ -51,7 +50,6 @@
 		49A83DD81D2E47000082ADA8 /* PlanetaryCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetaryCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		49C83E6D1CF89A1F00B80E52 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		49C83E6F1CF89A6700B80E52 /* Credits */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Credits; path = "Planet Tour/Credits"; sourceTree = "<group>"; };
-		49C83E711CF8A51700B80E52 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		49C83E731CF8B29C00B80E52 /* Planets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Planets.xcassets; sourceTree = "<group>"; };
 		6A68131377D23C0215DBA0AB /* Pods_Planet_Tour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Planet_Tour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76282ED338DF0D2BAD7F48E4 /* Pods-Planet Tour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planet Tour.release.xcconfig"; path = "Pods/Target Support Files/Pods-Planet Tour/Pods-Planet Tour.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 		49C83E6C1CF899FD00B80E52 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				49C83E711CF8A51700B80E52 /* AppConstants.swift */,
 				49C83E6D1CF89A1F00B80E52 /* UIColorExtension.swift */,
 				495915E71D00F68300CDFD8B /* CrossfadeSegue.swift */,
 				49A83DD81D2E47000082ADA8 /* PlanetaryCollectionViewFlowLayout.swift */,
@@ -321,7 +318,6 @@
 				B56BBFCF20597F9600A13136 /* RCValues.swift in Sources */,
 				49923F211CF3C4320064A124 /* AppDelegate.swift in Sources */,
 				495915E81D00F68300CDFD8B /* CrossfadeSegue.swift in Sources */,
-				49C83E721CF8A51700B80E52 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

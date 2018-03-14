@@ -55,12 +55,12 @@ extension GetNewsletterViewController {
 fileprivate extension GetNewsletterViewController {
 
   func updateText() {
-    instructionLabel.text = AppConstants.subscribeVCText
-    submitButton.setTitle(AppConstants.subscribeVCButton, for: .normal)
+    instructionLabel.text = RCValues.sharedInstance.string(forKey: .subscribeVCText)
+    submitButton.setTitle(RCValues.sharedInstance.string(forKey: .subscribeVCButton), for: .normal)
   }
 
   func updateSubmitButton() {
-    submitButton.backgroundColor = AppConstants.appPrimaryColor
+    submitButton.backgroundColor = RCValues.sharedInstance.color(forKey: .appPrimaryColor)
     submitButton.layer.cornerRadius = 5.0
   }
 }

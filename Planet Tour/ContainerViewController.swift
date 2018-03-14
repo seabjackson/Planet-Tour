@@ -46,13 +46,13 @@ class ContainerViewController: UIViewController {
 fileprivate extension ContainerViewController {
 
   func updateNavigationColors() {
-    navigationController?.navigationBar.tintColor = AppConstants.navTintColor
+    navigationController?.navigationBar.tintColor = RCValues.sharedInstance.color(forKey: .navTintColor)
   }
 
   func updateBanner() {
-    bannerView.backgroundColor = AppConstants.appPrimaryColor
-    bannerLabel.text = AppConstants.subscribeBannerText
-    getNewsletterButton.setTitle(AppConstants.subscribeBannerButton, for: .normal)
+    bannerView.backgroundColor = RCValues.sharedInstance.color(forKey: .appPrimaryColor)
+    bannerLabel.text = RCValues.sharedInstance.string(forKey: .subsribeBannerText)
+    getNewsletterButton.setTitle(RCValues.sharedInstance.string(forKey: .subscribeBannerButton), for: .normal)
   }
 }
 

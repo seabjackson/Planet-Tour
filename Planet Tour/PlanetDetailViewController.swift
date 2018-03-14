@@ -51,14 +51,14 @@ fileprivate extension PlanetDetailViewController {
 
   func updateLabelColors() {
     for case let nextLabel? in [yearTitle, massTitle, funFactTitle] {
-      nextLabel.textColor = AppConstants.appPrimaryColor
+      nextLabel.textColor = RCValues.sharedInstance.color(forKey: .detailInfoColor)
     }
 
     for case let nextLabel? in [yearLengthLabel, massLabel, funFactLabel] {
-      nextLabel.textColor = AppConstants.detailInfoColor
+      nextLabel.textColor = RCValues.sharedInstance.color(forKey: .appPrimaryColor)
     }
 
-    planetNameLabel.textColor = AppConstants.detailTitleColor
+    planetNameLabel.textColor = RCValues.sharedInstance.color(forKey: .detailInfoColor)
   }
 
   func updateLookForPlanet() {
