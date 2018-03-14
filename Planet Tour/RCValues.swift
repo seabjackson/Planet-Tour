@@ -13,13 +13,17 @@ class RCValues {
   
   static let sharedInstance = RCValues()
   
+  enum ValueKey: String {
+    case appPrimaryColor
+  }
+  
   private init() {
     loadDefaultValues()
     fetchCloudValues()
   }
   
   func loadDefaultValues() {
-    let appDefaults: [String: NSObject] = ["appPrimaryColor": "#FBB03B" as NSObject]
+    let appDefaults: [String: NSObject] = [ValueKey.appPrimaryColor.rawValue: "#FBB03B" as NSObject]
     RemoteConfig.remoteConfig().setDefaults(appDefaults)
   }
   
@@ -36,6 +40,8 @@ class RCValues {
       
       RemoteConfig.remoteConfig().activateFetched()
       print("Retrieved values from the cloud")
+      
+      print("Our app's primary color is \(RemoteConfig.remoteConfig().configValue(forKey: "appPrimaryColor").stringValue)")
     }
   }
   
