@@ -28,6 +28,7 @@
 		49C83E721CF8A51700B80E52 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C83E711CF8A51700B80E52 /* AppConstants.swift */; };
 		49C83E741CF8B29C00B80E52 /* Planets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C83E731CF8B29C00B80E52 /* Planets.xcassets */; };
 		B52A166D2059748300FE6362 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52A166C2059748300FE6362 /* GoogleService-Info.plist */; };
+		B56BBFCF20597F9600A13136 /* RCValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56BBFCE20597F9600A13136 /* RCValues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		76282ED338DF0D2BAD7F48E4 /* Pods-Planet Tour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planet Tour.release.xcconfig"; path = "Pods/Target Support Files/Pods-Planet Tour/Pods-Planet Tour.release.xcconfig"; sourceTree = "<group>"; };
 		83888DF5D88A3103BCC308EC /* Pods-Planet Tour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planet Tour.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Planet Tour/Pods-Planet Tour.debug.xcconfig"; sourceTree = "<group>"; };
 		B52A166C2059748300FE6362 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B56BBFCE20597F9600A13136 /* RCValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCValues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				49C83E6D1CF89A1F00B80E52 /* UIColorExtension.swift */,
 				495915E71D00F68300CDFD8B /* CrossfadeSegue.swift */,
 				49A83DD81D2E47000082ADA8 /* PlanetaryCollectionViewFlowLayout.swift */,
+				B56BBFCE20597F9600A13136 /* RCValues.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				49923F381CF3C6720064A124 /* SolarSystem.swift in Sources */,
 				49923F4D1CF4E8710064A124 /* PlanetDetailViewController.swift in Sources */,
 				499C8A281D122C0E00742186 /* MiniMap.swift in Sources */,
+				B56BBFCF20597F9600A13136 /* RCValues.swift in Sources */,
 				49923F211CF3C4320064A124 /* AppDelegate.swift in Sources */,
 				495915E81D00F68300CDFD8B /* CrossfadeSegue.swift in Sources */,
 				49C83E721CF8A51700B80E52 /* AppConstants.swift in Sources */,
